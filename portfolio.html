@@ -5,6 +5,11 @@
   <title>My Portfolio</title>  
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/ovewrite.css">
     <style>
     body {
       background-image: url("assets/images/criss-cross.png");
@@ -14,57 +19,115 @@
 </head>
 <body>
     <header>
-        <div class="H_Label">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                  <div class="H_Label">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div id="name">Mathew Thomas</div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contents
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="index.html">About Me</a>
+                                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                              </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                                                   
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="H_Label">
             <div id="name">Mathew Thomas</div>
             <span class="index"><a href="index.html" style="text-decoration: none">About</a></span>
             <div class="divider"></div>
             <span class="portfolio"><a href="portfolio.html" style="text-decoration: none">Portfolio</a></span>
             <div class="divider"></div>
             <span class="contact"><a href="contact.html" style="text-decoration: none">Contact</a></span>
-        </div>
+        </div> -->
     </header>
-    <div class="wrapper">
-        <h1>Portfolio</h1>
-        <hr/>
+    <div class="container">
         <div class="row">
-            <div class="column">
-                <div class="img-container">
-                    <div class="positioning">
-                        Hangman
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="wrapper">
+                <h1>Portfolio</h1>
+                <hr/>
+                <div class="row">
+                    <div class="column">
+                        <div class="img-container">
+                            <div class="positioning">
+                                Hangman
+                            </div>
+                                <img src="assets\images\Hangman.jpg" alt="Hangman">
+                        </div>
+                        <div class="img-container">
+                            <div class="positioning">
+                                RPG Game
+                            </div>
+                                <img src="assets\images\RPG.jpg" alt="RPG Game">
+                        </div>
                     </div>
-                        <img src="assets\images\Hangman.jpg" alt="Hangman">
-                </div>
-                <div class="img-container">
-                    <div class="positioning">
-                        RPG Game
+                    <div class="column">
+                        <div class="img-container">
+                            <div class="positioning">
+                                Trivia Game
+                            </div>
+                                <img src="assets\images\Trivia.jpg" alt="Trivia Game">
+                        </div>
+                        <div class="img-container">
+                            <div class="positioning">
+                                Rutgers Info Widget
+                            </div>
+                            <img src="assets\images\Rutgers.jpg" alt="Rutgers Info Widget">
+                        </div>
                     </div>
-                        <img src="assets\images\RPG.jpg" alt="RPG Game">
-                </div>
-            </div>
-            <div class="column">
-                <div class="img-container">
-                    <div class="positioning">
-                        Trivia Game
-                    </div>
-                        <img src="assets\images\Trivia.jpg" alt="Trivia Game">
-                </div>
-                <div class="img-container">
-                    <div class="positioning">
-                        Rutgers Info Widget
-                    </div>
-                    <img src="assets\images\Rutgers.jpg" alt="Rutgers Info Widget">
-                </div>
-            </div>
-            <div class="column">
-                <div class="img-container">
-                    <div class="positioning">
-                        Rock Paper Scissors
-                    </div>
-                    <img src="assets\images\Rock.jpg" alt="Rock Paper Scissors">
-                </div>    
-            </div> 
-        </div> 
-    </div>  
+                    <div class="column">
+                        <div class="img-container">
+                            <div class="positioning">
+                                Rock Paper Scissors
+                            </div>
+                            <img src="assets\images\Rock.jpg" alt="Rock Paper Scissors">
+                        </div>    
+                    </div> 
+                </div> 
+            </div>  
+            <!-- <div class="wrapper">
+              <h1>About Me</h1>
+              <hr/>
+                <img id="photo" src="assets\images\download.png" align="left" />
+                  <p>Hi, I'm Mathew. I'm a former Automation Controls Software Engineer at Dow Chemical. I have always been passionate to code and my interest in coding was amplified while working with a Fortran based DCS system at DOW. I am currently looking to pursue a long term career in Software Engineering and Development of mordern coding languages and frameworks. I am an alumnus of University of Houston where I did my Masters in Electrical Engineering. I also have a Bachelor of Technology degree in Electronics from VIT University, India.</p>
+                  <p></p>
+                  <br>
+                  <p>I am passionate to learn new programming languages and I actively look for material to keep myself updated on time complexity of code and systems design while using different programming languages. My hobbies include assembling and fixing up computer hardware, emulating systems through virtual machines or homebrew emulators for legacy video game consoles.</p>
+            </div> -->
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    
 </body>
 <footer><div class="copyright">Copyright ©</div></footer>
 </html>

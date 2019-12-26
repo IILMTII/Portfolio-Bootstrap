@@ -130,7 +130,7 @@ img{
   color:#777777;
 }
 
-a:link{
+/* a:link{
   color:#777777;
 }
 
@@ -140,7 +140,7 @@ a:visited{
 
 a:hover{
   color:#4aaaa5;
-}
+} */
 
 .copyright{
   position: absolute;
