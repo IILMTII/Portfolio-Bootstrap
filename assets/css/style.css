@@ -1,4 +1,4 @@
-header{
+/* header{
   background-color: #ffffff;
   border-color: #cccccc;
   left: 0;
@@ -8,6 +8,21 @@ header{
   font-family: 'Georgia';
   display: flex;
   z-index: 1;
+  text-align: center;
+} */
+
+header{
+  background-color: white;
+    position: fixed;
+    left: 0;
+    font-size: 30px;
+    font-family: 'Georgia';
+    /* bottom: 0; */
+    /* height: 60px; */
+    width: 100%;
+    /* text-align: center; */
+    color: white;
+    z-index: 5;
 }
 
 span{
@@ -43,14 +58,14 @@ hr{
   margin-bottom: 0px;
 }
 
-#photo{
+/* #photo{
   height: 200px;
   width: 200px;
   margin: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-} 
+}  */
 
 img{
   height: 200px;
