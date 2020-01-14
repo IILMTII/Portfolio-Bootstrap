@@ -1,6 +1,8 @@
 // place script tag at bottom of body of HTML file to avoid DOM traversal errors.
 var imgBorder = document.querySelectorAll("img");
-imgBorder[4].setAttribute("style", "border: 2px solid; width: 200px;");
+for(var i=0; i<imgBorder.length; i++){
+imgBorder[i].setAttribute("style", "border: 2px solid; width: 200px;");
+}
 
 function passGen(){
     window.location.href = "passgen.html";
