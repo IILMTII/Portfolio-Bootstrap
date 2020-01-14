@@ -1,28 +1,12 @@
-/* header{
-  background-color: #ffffff;
-  border-color: #cccccc;
-  left: 0;
-  top: 0;
-  width: 100%;
-  font-size: 30px;
-  font-family: 'Georgia';
-  display: flex;
-  z-index: 1;
-  text-align: center;
-} */
-
 header{
   background-color: white;
-    position: fixed;
-    left: 0;
-    font-size: 30px;
-    font-family: 'Georgia';
-    /* bottom: 0; */
-    /* height: 60px; */
-    width: 100%;
-    /* text-align: center; */
-    color: white;
-    z-index: 5;
+  position: fixed;
+  left: 0;
+  font-size: 30px;
+  font-family: 'Georgia';
+  width: 100%;
+  color: white;
+  z-index: 5;
 }
 
 span{
@@ -58,21 +42,13 @@ hr{
   margin-bottom: 0px;
 }
 
-/* #photo{
-  height: 200px;
-  width: 200px;
-  margin: 30px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}  */
-
 img{
   height: 200px;
   width: 200px;
   margin: 30px;
   margin-left: 0px;
   margin-top: 0px;
+  cursor: pointer;
 }
 
 .img-container{
@@ -122,6 +98,7 @@ img{
   margin-right: 420px;
   overflow: hidden;
   width: max-content;
+  cursor: pointer;
 }
 
 .contact{
