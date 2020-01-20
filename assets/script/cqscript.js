@@ -10,7 +10,7 @@ const mainBody = document.getElementById('main');
 const enterName = document.getElementsByClassName('form-group');
 const nameButton = document.getElementById('name-btn');
 const clearButton = document.getElementById('clear-btn');
-const name = document.getElementById('name');
+const name = document.getElementById('nameInput');
 const newScoreList = document.getElementById('scoreList');
 const highScoresButton = document.getElementById('highscores')
 
@@ -231,6 +231,6 @@ function clearHighscores(){
     if(choose){
     highScores.length=0;
     localStorage.clear();
-    alert('Highscores list lost !');
+    alert('Highscores list cleared !');
     }
 }
