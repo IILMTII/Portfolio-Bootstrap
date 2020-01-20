@@ -234,3 +234,7 @@ function clearHighscores(){
     alert('Highscores list cleared !');
     }
 }
+
+function name(){
+    window.location.href = "index.html";
+}
