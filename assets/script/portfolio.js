@@ -9,6 +9,10 @@ function passGen(){
     //window.location.replace("passgen.html"); - goest to index
 }
 
+function cQuiz(){
+    window.location.href = "cquiz.html";
+}
+
 function name(){
     window.location.href = "index.html";
 }
