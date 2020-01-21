@@ -235,6 +235,6 @@ function clearHighscores(){
     }
 }
 
-function name(){
+function nameIcon(){
     window.location.href = "index.html";
 }
