@@ -32,11 +32,12 @@ hr {
   
 #timer{
     color: #4aaaa5;
+    font-size: 30px;
 }
   
 #scores{
     color: #4aaaa5;
-    width: max-content;
+    font-size: 30px;
 }
 
 #highscores{
