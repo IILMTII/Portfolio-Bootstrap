@@ -20,6 +20,30 @@ hr {
     flex-direction: column;  /* column align */
 }
 
+#icon{
+    background: #4aaaa5;
+    color: white; 
+    padding: 30px;
+    margin-right: 420px;
+    overflow: hidden;
+    width: max-content;
+    cursor: pointer;
+}
+  
+#timer{
+    color: #4aaaa5;
+}
+  
+#scores{
+    color: #4aaaa5;
+    width: max-content;
+}
+
+#highscores{
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
 .choice{
     background-color: #4aaaa5;
     border-color: teal;
