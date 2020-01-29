@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/eplanner.css">
+    <script defer src="assets/script/eplanner.js"></script>
+</head>
+<body>  
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Workday Scheduler</h1>
+          <p class="lead">This is a workday scheduler created only using HTML/CSS/Bootstrap/jQuery/Moment.js. The save buttons work independently for each entry and the red button deletes all entries. Give it a try !</p>
+          <p id="time"></p>
+          <p class="deleteall">Click the icon to delete all entries : <button type = "submit" class="fa fa-trash btn btn-danger" id="deleteall" style="font-size:36px;"></button></p>
+        </div>
+    </div>
+    <i class="glyphicon glyphicon-envelope"></i>
+    <div class="container-fluid">
+        <table id="productSizes" class="table">
+            <thead>
+                <tr class="d-flex">
+                    <th class="col-sm-1">Time</th>
+                    <th class="col-sm-10">Event</th>
+                    <th class="col-sm-1">Save</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr class="d-flex row">
+                    <td class="col-sm-1">9 AM</td>
+                    <td class="col-sm-10"><textarea class="form-control" rows="2" id="comment"></textarea></td>
+                    <td class="col-sm-1"><i class="fa fa-save" style="font-size:36px;"></i></td>
+                </tr> -->
+            </tbody>
+        </table>
+</body>
+</html>

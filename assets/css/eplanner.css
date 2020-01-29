@@ -1,0 +1,68 @@
+p{
+    word-wrap: break-word;
+}
+
+input{
+    padding:50px;
+}
+
+.table td{
+    padding: 0px;
+    text-align: center;  
+    line-height: 3.6;
+}
+
+.deleteall{
+    color: red;
+}
+
+.btn-info{
+    margin: 6px;
+}
+
+.table th{
+    text-align: center;
+}
+
+textarea { 
+    resize:none; 
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.fa-save:hover{
+    cursor: pointer;
+}
+
+.red{
+    background-color: #ffcccc !important;
+}
+
+.green{
+    background-color: #ccffcc !important;
+}
+
+.gray{
+    background-color: #cccccc !important;
+}
+
+.H_Label{
+    bottom: 0;
+    margin:auto;
+    display: flex;
+    justify-content: flex-end; 
+    background-color: white;
+}
+
+#name{
+    background: #4aaaa5;
+    color: white; 
+    padding: 30px;
+    margin-right: 420px;
+    overflow: hidden;
+    width: max-content;
+    cursor: pointer;
+}
+  

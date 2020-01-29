@@ -13,6 +13,10 @@ function cQuiz(){
     window.location.href = "cquiz.html";
 }
 
+function eplanner(){
+    window.location.href = "eplanner.html";
+}
+
 function name(){
     window.location.href = "index.html";
 }
