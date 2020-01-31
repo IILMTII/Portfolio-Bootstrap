@@ -194,3 +194,7 @@ textarea{
   margin-top: 0px;
   width: 80%;
 }
+
+.nav-item{
+  width: max-content;
+}
